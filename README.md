@@ -29,20 +29,16 @@ The suite covers core user flows such as course search and filtering, course det
 
 ## Setup Instructions
 
-### Prerequisites
-
-- Node.js >=16.x installed  
-- npm or yarn package manager  
-
 ### Installation
 
+- Node.js >=16.x installed  
+- npm or yarn package manager
+- 
 Due to some peer dependency conflicts in ESLint and Cypress plugins, use the following commands to install dependencies without errors:
 
 npm install --legacy-peer-deps
 
-or
 
-yarn install --legacy-peer-deps
 
 This flag allows npm/yarn to install dependencies even if there are conflicting peer dependency requirements.
 
